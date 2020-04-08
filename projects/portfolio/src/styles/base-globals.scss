@@ -1,4 +1,4 @@
-// body basic setup 
+// body
 html, body { 
     margin:0;
     padding:0;
@@ -9,3 +9,21 @@ html, body {
 // font
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+// scrollbar
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #ddd; 
+}
+::-webkit-scrollbar-thumb {
+    background: #6e6e6e; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #ddd;
+}
