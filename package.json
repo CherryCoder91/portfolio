@@ -1,5 +1,16 @@
 {
-  "name": "portfolio",
+  "name": "@cherrycoder91/portfolio",
+  "description": "Personal website and portfolio for James Pickup's work, thoughts and interests.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CherryCoder91/portfolio.git"
+  },
+  "homepage": "https://github.com/CherryCoder91/portfolio",
+  "author": {
+    "name": "James Pickup",
+    "email": "jamespickup2@gmail.cm",
+    "url": "https://jamespickup.co.uk/"
+  },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
