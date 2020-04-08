@@ -1,5 +1,10 @@
 // body basic setup 
-html, body { height: 100%; }
+html, body { 
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+ }
 
 // font
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
