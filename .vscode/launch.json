@@ -5,9 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "browser-preview",
+            "request": "launch",
+            "name": "Debug with BrowserPreview",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Debug with Chrome",
             "url": "http://localhost:4200",
             "webRoot": "${workspaceFolder}"
         }
