@@ -5,6 +5,9 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-color: #FAFAFA;
+    // background-image: url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    // background-size: cover;
 }
 
 // font
@@ -47,13 +50,13 @@ body {
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 
-img { 
-    -webkit-user-drag: none; 
-    -khtml-user-drag: none; 
-    -moz-user-drag: none; 
-    -o-user-drag: none; 
-    user-drag: none; 
-  }
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
 
 // container size
 .fit-parent {
@@ -93,12 +96,23 @@ img {
     font-family: "Permanent Marker", cursive;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 .gochi-hand {
-    font-family: 'Gochi Hand', cursive;
+    font-family: "Gochi Hand", cursive;
 }
 
 // border
 .border-round {
     border-radius: 50%;
+}
+
+//padding
+.small-padding {
+    padding: 10px;
+}
+
+
+// margin
+.small-margin {
+    margin: 10px;
 }
