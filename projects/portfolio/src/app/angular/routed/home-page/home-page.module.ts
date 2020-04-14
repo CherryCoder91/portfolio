@@ -15,7 +15,14 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { HomeNavComponent } from './components/home-nav/home-nav.component';
 
 @NgModule({
-  declarations: [HomePageComponent, ProfileHeaderComponent, SkillsComponent, AboutComponent, PortfolioComponent, HomeNavComponent],
+  declarations: [
+    HomePageComponent, 
+    ProfileHeaderComponent,
+    SkillsComponent,
+    AboutComponent,
+    PortfolioComponent,
+    HomeNavComponent
+  ],
   imports: [
     CommonModule,
     HomePageRoutingModule,
