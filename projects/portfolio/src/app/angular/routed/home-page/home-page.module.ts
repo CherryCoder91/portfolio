@@ -13,6 +13,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { HomeNavComponent } from './components/home-nav/home-nav.component';
+import { BlogCardComponent } from './components/blog-card/blog-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomeNavComponent } from './components/home-nav/home-nav.component';
     SkillsComponent,
     AboutComponent,
     PortfolioComponent,
-    HomeNavComponent
+    HomeNavComponent,
+    BlogCardComponent
   ],
   imports: [
     CommonModule,
