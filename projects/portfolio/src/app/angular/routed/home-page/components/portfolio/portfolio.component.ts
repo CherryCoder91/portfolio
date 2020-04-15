@@ -16,30 +16,39 @@ export class PortfolioComponent implements OnInit {
 
   private buildBlogCards() {
 
-
+    let card6= new blogCardView();
+    card6.author = 'James Pickup';
+    card6.content = 'gRPC is a language agnostic, high-performance Remote Procedure Call (RPC) framework. This is a very basic example of a .Net core implementation with client and server.'
+    card6.date = '2020',
+    card6.imageUrl= '/assets/image/portfolio/grpc.jpg';
+    card6.readMore = 'https://github.com/CherryCoder91/grpc-netcore-demo';
+    card6.subTitle = 'Using gRPC in .NET Core 3';
+    card6.tags = new Array<string>('gRPC','.proto', '.NetCore');
+    card6.title = 'gRPC .NET Core Demo'
+    this.blogCardViews.push(card6);
 
     let card5 = new blogCardView();
     card5.author = 'James Pickup';
     card5.content = 'gRPC is a language agnostic, high-performance Remote Procedure Call (RPC) framework. This is a very basic example of a .Net core implementation with client and server.'
-    card5.date = '2020',
-    card5.imageUrl= '/assets/image/portfolio/grpc.jpg';
-    card5.readMore = 'https://github.com/CherryCoder91/grpc-netcore-demo';
-    card5.subTitle = 'Using gRPC in .NET Core 3';
-    card5.tags = new Array<string>('gRPC','.proto', '.NetCore');
-    card5.title = 'gRPC .NET Core Demo'
+    card5.date = '2019',
+    card5.imageUrl= '/assets/image/portfolio/rabbitmq.jpg';
+    card5.readMore = 'https://github.com/CherryCoder91/rabbitmq-sdk-demo';
+    card5.subTitle = 'Exploring the basics of RabbitMQ';
+    card5.tags = new Array<string>('RabbitMQ','Que', 'Message Broker');
+    card5.title = 'RabbitMQ Basics'
     this.blogCardViews.push(card5);
 
     let card4 = new blogCardView();
     card4.author = 'James Pickup';
-    card4.content = 'gRPC is a language agnostic, high-performance Remote Procedure Call (RPC) framework. This is a very basic example of a .Net core implementation with client and server.'
-    card4.date = '2019',
-    card4.imageUrl= '/assets/image/portfolio/rabbitmq.jpg';
-    card4.readMore = 'https://github.com/CherryCoder91/rabbitmq-sdk-demo';
-    card4.subTitle = 'Exploring the basics of RabbitMQ';
-    card4.tags = new Array<string>('RabbitMQ','Que', 'Message Broker');
-    card4.title = 'RabbitMQ Basics'
+    card4.content = 'A small experiment showing how a website can emulate the interactivity of OSX. Written using mostly html & css inside an Angular application.'
+    card4.date = '2018',
+    card4.imageUrl= '/assets/image/portfolio/osx-desktop.png';
+    card4.readMore = 'https://github.com/CherryCoder91/osx-desktop';
+    card4.subTitle = 'Virtual OSX Desktop experience';
+    card4.tags = new Array<string>('OSX','Desktop-Experience', 'Angular');
+    card4.title = 'OSX Desktop'
+    card4. liveExample = 'https://james-pickup.firebaseapp.com/';
     this.blogCardViews.push(card4);
-
 
     let card3 = new blogCardView();
     card3.author = 'James Pickup';

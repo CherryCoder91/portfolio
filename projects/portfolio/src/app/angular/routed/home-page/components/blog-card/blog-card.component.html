@@ -19,5 +19,8 @@
       <p class="read-more">
         <a href="{{blogCard.readMore}}" target="_blank">Read More</a>
       </p>
+      <p *ngIf="blogCard.liveExample !== ''" class="read-more" style="display: inline-block;">
+        <a href="{{blogCard.liveExample}}" target="_blank">Live Example</a>
+      </p>
     </div>
   </div>

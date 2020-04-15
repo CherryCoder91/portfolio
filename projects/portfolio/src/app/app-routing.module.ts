@@ -9,12 +9,12 @@ const routes: Routes = [
 },
 {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'home/portfolio',
     pathMatch: 'full'
 },
 {
     path: '**',
-    redirectTo: 'home',
+    redirectTo: 'home/about',
     pathMatch: 'full'
 }
 ];
