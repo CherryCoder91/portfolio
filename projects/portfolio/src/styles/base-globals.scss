@@ -91,12 +91,12 @@ img {
 // font
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .permanent-marker {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker", cursive !important;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 .gochi-hand {
-    font-family: "Gochi Hand", cursive;
+    font-family: "Gochi Hand", cursive !important;
 }
 
 // border
