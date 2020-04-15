@@ -47,6 +47,7 @@ export class PortfolioComponent implements OnInit {
     card4.subTitle = 'Virtual OSX Desktop experience';
     card4.tags = new Array<string>('OSX','Desktop-Experience', 'Angular');
     card4.title = 'OSX Desktop'
+    card4. liveExample = 'https://james-pickup.firebaseapp.com/';
     this.blogCardViews.push(card4);
 
     let card3 = new blogCardView();

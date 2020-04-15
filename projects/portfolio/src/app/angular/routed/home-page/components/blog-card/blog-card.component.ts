@@ -24,6 +24,7 @@ export class blogCardView {
     public tags = ['tag1', 'tag2', 'tag3'],
     public date = 'In a galaxy far far away...',
     public author = 'Bobba Fett',
-    public readMore = 'https://google.com'  
+    public readMore = 'https://google.com',  
+    public liveExample = ''
     ){}
 }
