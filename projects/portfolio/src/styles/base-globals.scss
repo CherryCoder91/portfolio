@@ -5,6 +5,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-color: #FAFAFA;
 }
 
 // font
@@ -47,13 +48,13 @@ body {
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 
-img { 
-    -webkit-user-drag: none; 
-    -khtml-user-drag: none; 
-    -moz-user-drag: none; 
-    -o-user-drag: none; 
-    user-drag: none; 
-  }
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
 
 // container size
 .fit-parent {
@@ -90,9 +91,26 @@ img {
 // font
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .permanent-marker {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker", cursive !important;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+.gochi-hand {
+    font-family: "Gochi Hand", cursive !important;
+}
+
+// border
 .border-round {
     border-radius: 50%;
+}
+
+//padding
+.small-padding {
+    padding: 10px;
+}
+
+
+// margin
+.small-margin {
+    margin: 10px;
 }
