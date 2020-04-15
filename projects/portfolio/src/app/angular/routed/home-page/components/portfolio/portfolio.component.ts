@@ -49,7 +49,7 @@ export class PortfolioComponent implements OnInit {
     card3.readMore = 'https://github.com/CherryCoder91/webgl-simpleconcepts-demo';
     card3.subTitle = 'Exploring basic 3D rendering concepts';
     card3.tags = new Array<string>('WebGL','javascript', '3d', 'interaction');
-    card3.title = 'WebGLDomInteraction'
+    card3.title = 'WebGL Simple Concepts'
     this.blogCardViews.push(card3);
 
     let card2 = new blogCardView();
