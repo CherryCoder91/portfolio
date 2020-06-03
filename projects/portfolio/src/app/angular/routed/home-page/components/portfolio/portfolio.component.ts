@@ -16,6 +16,17 @@ export class PortfolioComponent implements OnInit {
 
   private buildBlogCards() {
 
+    let card7= new blogCardView();
+    card7.author = 'James Pickup';
+    card7.content = 'Event Sourcing is an architectural pattern that is gaining popularity as a method for building modern systems. Unlike traditional databases which only store and update the current state of data, event-sourced systems store all changes as an immutable series of events in the order that they occurred and current state is derived from that event log.'
+    card7.date = '2020',
+    card7.imageUrl= '/assets/image/portfolio/event-store-logo.png';
+    card7.readMore = 'https://gist.github.com/CherryCoder91/0792358b49f8598983c0d4742474fe6f';
+    card7.subTitle = 'Quick Dive into EventStore DB';
+    card7.tags = new Array<string>('EventStoreDB','Event Sourcing', 'change-stream');
+    card7.title = 'Event Store DB'
+    this.blogCardViews.push(card7);
+
     let card6= new blogCardView();
     card6.author = 'James Pickup';
     card6.content = 'gRPC is a language agnostic, high-performance Remote Procedure Call (RPC) framework. This is a very basic example of a .Net core implementation with client and server.'
